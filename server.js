@@ -1,4 +1,4 @@
-    const socket = new WebSocket('ws://localhost:8080'); // Ensure this is the correct URL
+    const socket = new WebSocket('wss://messaging-khaki.vercel.app'); // Ensure this is the correct URL
 
     socket.onmessage = function(event) {
         const messagesDiv = document.getElementById('messages');
